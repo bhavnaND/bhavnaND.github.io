@@ -47,14 +47,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-medium text-foreground/80">LinkedIn</h3>
-                <a 
-                  href="https://linkedin.com/in/bhavna-n" 
-                  className="text-primary hover:underline"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  linkedin.com/in/bhavna-n
-                </a>
+                <p className="text-muted-foreground">bhavna-n</p>
               </div>
             </div>
             
@@ -64,14 +57,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-medium text-foreground/80">GitHub</h3>
-                <a 
-                  href="https://github.com/bhavna-n" 
-                  className="text-primary hover:underline"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github.com/bhavna-n
-                </a>
+                <p className="text-muted-foreground">bhavna-n</p>
               </div>
             </div>
           </div>

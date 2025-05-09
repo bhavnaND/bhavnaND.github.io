@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -22,24 +22,6 @@ const Footer = () => {
               aria-label="Email"
             >
               <Mail className="h-5 w-5" />
-            </a>
-            <a 
-              href="https://github.com/bhavna-n"
-              className="text-foreground/70 hover:text-primary"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="GitHub"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <a 
-              href="https://linkedin.com/in/bhavna-n"
-              className="text-foreground/70 hover:text-primary"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="h-5 w-5" />
             </a>
           </div>
         </div>
