@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Github, Linkedin, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -38,26 +38,6 @@ const Contact = () => {
               <div>
                 <h3 className="font-medium text-foreground/80">Location</h3>
                 <p>India</p>
-              </div>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <div className="bg-primary/10 p-3 rounded-full">
-                <Linkedin className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-medium text-foreground/80">LinkedIn</h3>
-                <p className="text-muted-foreground">bhavna-n</p>
-              </div>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <div className="bg-primary/10 p-3 rounded-full">
-                <Github className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-medium text-foreground/80">GitHub</h3>
-                <p className="text-muted-foreground">bhavna-n</p>
               </div>
             </div>
           </div>
